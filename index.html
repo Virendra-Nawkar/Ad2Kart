@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ad2kart.in – Artist Oil Colours 40ml | Premium Oil Paints</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #B8790A;
+    --gold-light: #F0C96B;
+    --gold-pale: #FDF5E0;
+    --ink: #1C1407;
+    --warm: #F9F3E8;
+    --white: #FFFFFF;
+    --muted: #7A6840;
+    --red: #C0392B;
+    --green: #1E6B3A;
+    --border: #E8D9B0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--white); color: var(--ink); overflow-x: hidden; }
+  a { text-decoration: none; color: inherit; }
+
+  /* TOPBAR */
+  .topbar {
+    background: var(--ink);
+    color: #E8D9B0;
+    text-align: center;
+    padding: 9px 20px;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+  }
+  .topbar strong { color: var(--gold-light); }
+  .topbar-tag {
+    background: var(--gold); color: white;
+    font-size: 10px; font-weight: 800; letter-spacing: 0.12em;
+    padding: 3px 9px; border-radius: 2px; text-transform: uppercase;
+  }
+
+  /* HEADER */
+  header {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 1000;
+    box-shadow: 0 2px 24px rgba(184,121,10,0.08);
+  }
+  .header-inner {
+    max-width: 1200px; margin: 0 auto; padding: 0 32px;
+    height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; }
+  .logo-badge {
+    background: var(--ink); color: var(--gold-light);
+    font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 2px;
+    padding: 6px 10px; border-radius: 3px; line-height: 1;
+  }
+  .logo-badge span { color: var(--gold); }
+  .logo-name { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; color: var(--ink); line-height: 1; }
+  .logo-name small { display: block; font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 500; color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; margin-top: 2px; }
+  nav { display: flex; align-items: center; gap: 4px; }
+  .nav-link { padding: 8px 14px; font-size: 14px; font-weight: 500; color: var(--muted); border-radius: 4px; transition: all 0.2s; cursor: pointer; }
+  .nav-link:hover, .nav-link.active { color: var(--gold); background: var(--gold-pale); }
+  .header-right { display: flex; align-items: center; gap: 10px; }
+  .cart-btn {
+    display: flex; align-items: center; gap: 7px;
+    padding: 9px 18px; background: var(--gold); color: white;
+    border: none; border-radius: 4px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s;
+  }
+  .cart-btn:hover { background: #9A6508; }
+  .cart-count {
+    background: white; color: var(--gold); font-size: 11px; font-weight: 800;
+    width: 18px; height: 18px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  }
+  .search-btn {
+    width: 38px; height: 38px; border: 1.5px solid var(--border); border-radius: 4px;
+    background: none; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+  }
+  .search-btn:hover { border-color: var(--gold); background: var(--gold-pale); }
+
+  /* HERO */
+  .hero {
+    background: var(--ink); min-height: 560px;
+    display: flex; align-items: center; position: relative; overflow: hidden;
+  }
+  .oil-blobs { position: absolute; inset: 0; pointer-events: none; }
+  .blob { position: absolute; border-radius: 50%; mix-blend-mode: screen; opacity: 0.45; animation: blobFloat 8s ease-in-out infinite; }
+  @keyframes blobFloat { 0%,100%{transform:translateY(0) scale(1)} 33%{transform:translateY(-18px) scale(1.06)} 66%{transform:translateY(10px) scale(0.96)} }
+  .b1{width:380px;height:380px;background:radial-gradient(#DAA520,transparent 70%);right:5%;top:-10%;animation-delay:0s}
+  .b2{width:260px;height:260px;background:radial-gradient(#8B0000,transparent 70%);right:28%;bottom:0%;animation-delay:2s}
+  .b3{width:200px;height:200px;background:radial-gradient(#004D40,transparent 70%);right:50%;top:20%;animation-delay:4s}
+  .b4{width:160px;height:160px;background:radial-gradient(#1A237E,transparent 70%);right:18%;top:35%;animation-delay:1s}
+  .b5{width:120px;height:120px;background:radial-gradient(#F57F17,transparent 70%);right:38%;bottom:5%;animation-delay:3s}
+
+  .hero-inner {
+    max-width: 1200px; margin: 0 auto; padding: 60px 32px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;
+    position: relative; z-index: 2; width: 100%;
+  }
+  .hero-eyebrow { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; }
+  .eyebrow-dot { width:8px;height:8px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite }
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.6;transform:scale(0.85)}}
+  .eyebrow-text { font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-light) }
+  .hero-title { font-family:'Playfair Display',serif;font-size:clamp(40px,4.5vw,62px);font-weight:900;color:white;line-height:1.1;margin-bottom:18px }
+  .hero-title em { font-style:italic;color:var(--gold-light) }
+  .hero-desc { font-size:16px;color:rgba(255,255,255,0.65);line-height:1.8;margin-bottom:32px;max-width:460px }
+  .hero-meta { display:flex;gap:28px;margin-bottom:32px }
+  .stat-val { font-family:'Bebas Neue',sans-serif;font-size:32px;color:var(--gold-light);line-height:1 }
+  .stat-lbl { font-size:12px;color:rgba(255,255,255,0.45);margin-top:3px }
+  .hero-btns { display:flex;gap:12px;flex-wrap:wrap }
+  .btn-primary { padding:14px 30px;background:var(--gold);color:white;border:none;border-radius:4px;font-size:15px;font-weight:600;cursor:pointer;transition:all 0.2s;letter-spacing:0.02em }
+  .btn-primary:hover { background:#9A6508;transform:translateY(-2px);box-shadow:0 8px 24px rgba(184,121,10,0.4) }
+  .btn-outline-white { padding:14px 30px;background:transparent;color:rgba(255,255,255,0.8);border:1.5px solid rgba(255,255,255,0.25);border-radius:4px;font-size:15px;font-weight:500;cursor:pointer;transition:all 0.2s }
+  .btn-outline-white:hover { border-color:rgba(255,255,255,0.6);color:white }
+
+  /* SHIPPING SECTION */
+  .shipping-section { background: var(--warm); padding: 72px 0 }
+  .ship-cards {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 36px;
+  }
+  .ship-card {
+    border-radius: 14px; padding: 24px 20px;
+    border: 1px solid transparent;
+    text-align: center;
+  }
+  .ship-card--green  { background:#f0fdf4; border-color:#bbf7d0 }
+  .ship-card--blue   { background:#eff6ff; border-color:#bfdbfe }
+  .ship-card--orange { background:#fff7ed; border-color:#fed7aa }
+  .ship-card--gold   { background:#fefce8; border-color:#fde68a }
+  .ship-card-icon  { font-size:32px; margin-bottom:10px }
+  .ship-card-title { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); margin-bottom:6px }
+  .ship-card-val   { font-family:'Playfair Display',serif; font-size:20px; font-weight:800; color:var(--ink); margin-bottom:6px }
+  .ship-card-sub   { font-size:12px; color:var(--muted); line-height:1.5 }
+  .ship-table-wrap {
+    background: white; border-radius: 14px;
+    border: 1px solid var(--border);
+    overflow: hidden; margin-bottom: 28px;
+    box-shadow: 0 4px 24px rgba(184,121,10,0.06);
+  }
+  .ship-table-title {
+    background: var(--ink); color: var(--gold-light);
+    font-weight: 700; font-size: 14px; letter-spacing: 0.03em;
+    padding: 14px 24px;
+  }
+  .ship-row {
+    display: grid; grid-template-columns: 220px 1fr;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+  }
+  .ship-row:last-child { border-bottom: none }
+  .ship-row > div { padding: 13px 24px }
+  .ship-row > div:first-child { color: var(--muted); font-weight: 500; border-right: 1px solid var(--border); background: #fdfaf4 }
+  .ship-row--head > div { background: #f5ede0 !important; font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink) !important }
+  .tag-green { background:#dcfce7; color:#166534; padding:2px 10px; border-radius:20px; font-size:13px }
+  .tag-red   { background:#fee2e2; color:#991b1b; padding:2px 10px; border-radius:20px; font-size:13px }
+  .ship-phone { color: var(--gold); font-weight: 700; font-size: 15px }
+  .care-banner {
+    background: var(--ink); border-radius: 14px;
+    padding: 24px 32px;
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    border: 1px solid rgba(240,201,107,0.25);
+  }
+  .care-left { display:flex; align-items:center; gap:20px }
+  .care-icon { font-size: 40px }
+  .care-label { font-size: 12px; color: rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:4px }
+  .care-number { display:block; font-family:'Bebas Neue',sans-serif; font-size:38px; color:var(--gold-light); line-height:1; letter-spacing:0.04em }
+  .care-sub { font-size: 12px; color: rgba(255,255,255,0.45); margin-top:3px }
+  .care-cta {
+    background: var(--gold); color: white;
+    font-weight: 700; font-size: 15px; letter-spacing:0.03em;
+    padding: 14px 32px; border-radius: 8px; white-space:nowrap;
+    transition: opacity 0.2s; flex-shrink:0;
+  }
+  .care-cta:hover { opacity: 0.88 }
+  @media(max-width:900px){
+    .ship-cards { grid-template-columns: repeat(2,1fr) }
+    .care-banner { flex-direction:column; text-align:center }
+    .care-left { flex-direction:column }
+  }
+  @media(max-width:600px){
+    .ship-cards { grid-template-columns: 1fr }
+    .ship-row { grid-template-columns: 1fr }
+    .ship-row > div:first-child { border-right:none; border-bottom: 1px solid var(--border) }
+  }
+
+  /* AMAZON STATS BAR */
+  .amz-stats {
+    display: flex; align-items: center;
+    background: rgba(240,201,107,0.08);
+    border: 1px solid rgba(240,201,107,0.25);
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin: 20px 0 24px;
+    gap: 0;
+  }
+  .amz-stat { flex:1; text-align:center }
+  .amz-val {
+    font-family:'Bebas Neue',sans-serif;
+    font-size: 28px; color: var(--gold-light); line-height:1;
+    margin-bottom: 4px;
+  }
+  .amz-lbl { font-size:11px; color:rgba(255,255,255,0.55); letter-spacing:0.04em; text-transform:uppercase }
+  .amz-sdivider { width:1px; background:rgba(240,201,107,0.2); height:40px; flex-shrink:0 }
+
+
+  .ecom-banner-card {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(240,201,107,0.25);
+    background: rgba(255,255,255,0.04);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 24px 64px rgba(0,0,0,0.45);
+  }
+  .ebc-ribbon {
+    background: rgba(184,121,10,0.18);
+    border-bottom: 1px solid rgba(240,201,107,0.2);
+    padding: 10px 20px;
+    display: flex; align-items: center; gap: 10px;
+    font-size: 12px; color: rgba(255,255,255,0.7); letter-spacing: 0.03em;
+  }
+  .ebc-ribbon-dot { width:4px;height:4px;border-radius:50%;background:var(--gold-light);flex-shrink:0 }
+  .ebc-body {
+    display: flex; align-items: center; gap: 0;
+    padding: 28px 24px;
+  }
+  /* Tube stack */
+  .ebc-tubes {
+    position: relative; width: 160px; height: 200px; flex-shrink: 0;
+  }
+  .ebc-tube {
+    position: absolute;
+    width: 90px; height: 180px;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 24px rgba(0,0,0,0.5));
+    transition: transform 0.3s;
+  }
+  .ebc-tube.t-back  { left:0;    top:10px; transform:rotate(-15deg); opacity:0.7; z-index:1 }
+  .ebc-tube.t-mid   { left:30px; top:5px;  transform:rotate(-5deg);  opacity:0.85; z-index:2 }
+  .ebc-tube.t-front { left:62px; top:0px;  transform:rotate(8deg);   z-index:3 }
+  .ecom-banner-card:hover .ebc-tube.t-back  { transform:rotate(-20deg) translateX(-6px) }
+  .ecom-banner-card:hover .ebc-tube.t-mid   { transform:rotate(-5deg)  translateY(-4px) }
+  .ecom-banner-card:hover .ebc-tube.t-front { transform:rotate(12deg)  translateX(4px) }
+  /* Info side */
+  .ebc-info { flex:1; padding-left: 20px }
+  .ebc-tag {
+    display: inline-block;
+    background: rgba(184,121,10,0.25); border: 1px solid rgba(240,201,107,0.35);
+    color: var(--gold-light); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 4px 12px; border-radius: 20px; margin-bottom: 12px;
+  }
+  .ebc-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px; font-weight: 900; color: white;
+    line-height: 1.1; margin-bottom: 14px;
+  }
+  .ebc-title span { color: var(--gold-light); font-style: italic }
+  .ebc-price-row { display:flex; align-items:center; gap:16px; margin-bottom:14px }
+  .ebc-price {
+    font-family:'Bebas Neue',sans-serif; font-size:36px; color: var(--gold-light);
+    line-height:1;
+  }
+  .ebc-price span { font-size:14px; color: rgba(255,255,255,0.5); font-family:'DM Sans',sans-serif; font-weight:400 }
+  .ebc-instock {
+    display:flex; align-items:center; gap:6px;
+    font-size:12px; color:rgba(255,255,255,0.75); font-weight:600;
+  }
+  .ebc-dot { width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px #22c55e;flex-shrink:0 }
+  .ebc-badges { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px }
+  .ebc-badge {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.75);
+    font-size: 12px; font-weight: 600;
+    padding: 5px 12px; border-radius: 20px;
+  }
+  .ebc-cta {
+    display: inline-block;
+    background: var(--gold);
+    color: white;
+    font-weight: 700; font-size: 14px; letter-spacing: 0.03em;
+    padding: 11px 28px; border-radius: 8px;
+    transition: opacity 0.2s;
+  }
+  .ebc-cta:hover { opacity: 0.88 }
+  /* Trust row */
+  .ebc-trust {
+    border-top: 1px solid rgba(240,201,107,0.15);
+    display: flex; align-items: stretch;
+  }
+  .ebc-trust-item {
+    flex:1; display:flex; align-items:center; gap:10px;
+    padding: 16px 18px;
+    font-size: 12px; color: rgba(255,255,255,0.65); line-height:1.4;
+  }
+  .ebc-trust-item strong { display:block; color:rgba(255,255,255,0.9); font-size:13px; margin-bottom:1px }
+  .ebc-trust-icon { font-size:22px; flex-shrink:0 }
+  .ebc-divider { width:1px; background: rgba(240,201,107,0.12); align-self:stretch }
+
+
+    position:absolute;bottom:20px;left:20px;right:20px;
+    display:flex;gap:10px;flex-wrap:wrap;
+  }
+  .hb-badge {
+    background:rgba(28,20,7,0.82);backdrop-filter:blur(8px);
+    border:1px solid rgba(240,201,107,0.35);
+    border-radius:8px;padding:8px 14px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .hb-badge-icon { font-size:18px }
+  .hb-badge-text { font-size:11px;color:rgba(255,255,255,0.9);line-height:1.3 }
+  .hb-badge-text strong { color:var(--gold-light);display:block;font-size:13px }
+  /* colour strip */
+  .colour-strip {
+    display:flex;border-radius:10px;overflow:hidden;margin-top:18px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.4);height:36px;
+  }
+  .cs-swatch { flex:1;transition:flex 0.3s }
+  .cs-swatch:hover { flex:3 }
+
+  /* TRUST BAR */
+  .trust-bar { background:var(--gold-pale);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:16px 32px }
+  .trust-bar-inner { max-width:1200px;margin:0 auto;display:flex;justify-content:center;gap:40px;flex-wrap:wrap }
+  .trust-item { display:flex;align-items:center;gap:10px;font-size:13.5px;font-weight:500;color:var(--muted) }
+  .trust-icon { font-size:20px }
+
+  /* PRODUCTS */
+  .products-section { padding:72px 0;background:white }
+  .section-wrap { max-width:1200px;margin:0 auto;padding:0 32px }
+  .section-top { display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:40px;flex-wrap:wrap;gap:20px }
+  .section-label { font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block }
+  .section-title { font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,38px);font-weight:700;color:var(--ink);line-height:1.2 }
+  .section-title em { font-style:italic;color:var(--gold) }
+
+  .filter-bar { display:flex;gap:8px;flex-wrap:wrap;margin-bottom:36px;padding-bottom:20px;border-bottom:1px solid var(--border) }
+  .filter-chip { padding:7px 16px;border-radius:100px;border:1.5px solid var(--border);font-size:13px;font-weight:500;color:var(--muted);cursor:pointer;transition:all 0.2s;display:flex;align-items:center;gap:7px;background:white }
+  .filter-chip:hover,.filter-chip.active { background:var(--ink);color:white;border-color:var(--ink) }
+  .chip-dot { width:10px;height:10px;border-radius:50%;flex-shrink:0 }
+
+  .products-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px }
+  .product-card { border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:all 0.3s;cursor:pointer;background:white;position:relative }
+  .product-card:hover { transform:translateY(-5px);box-shadow:0 16px 48px rgba(184,121,10,0.14);border-color:var(--gold) }
+
+  .pc-thumb { height:170px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden }
+  .tube-wrap { display:flex;flex-direction:column;align-items:center;gap:4px }
+  .tube-body { width:38px;height:90px;border-radius:6px 6px 10px 10px;position:relative;box-shadow:inset -4px 0 8px rgba(0,0,0,0.2),inset 2px 0 6px rgba(255,255,255,0.15) }
+  .tube-cap { width:24px;height:16px;background:#888;border-radius:3px 3px 1px 1px;box-shadow:inset 0 2px 4px rgba(255,255,255,0.2) }
+  .tube-label-strip { position:absolute;bottom:18px;left:0;right:0;background:rgba(255,255,255,0.18);padding:4px 0;text-align:center;font-size:8px;color:rgba(255,255,255,0.9);font-weight:700;letter-spacing:0.08em }
+  .tube-ml { font-size:9px;color:rgba(255,255,255,0.75);font-weight:600 }
+  .tube-bottom { position:absolute;bottom:0;left:0;right:0;height:18px;background:rgba(0,0,0,0.2);border-radius:0 0 10px 10px }
+
+  .pc-badge { position:absolute;top:10px;right:10px;font-size:9px;font-weight:800;letter-spacing:0.1em;padding:3px 8px;border-radius:2px;text-transform:uppercase;color:white }
+  .badge-pop { background:var(--red) }
+  .badge-new { background:var(--green) }
+
+  .pc-info { padding:14px 14px 16px }
+  .pc-shade { display:flex;align-items:center;gap:7px;margin-bottom:6px }
+  .shade-dot { width:12px;height:12px;border-radius:50%;flex-shrink:0;border:1px solid rgba(0,0,0,0.1) }
+  .shade-name { font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted) }
+  .pc-name { font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px;line-height:1.3 }
+  .pc-size { font-size:12px;color:var(--muted);margin-bottom:12px }
+  .pc-footer { display:flex;align-items:center;justify-content:space-between }
+  .pc-price { font-size:20px;font-weight:700;color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing:0.05em }
+  .pc-price small { font-size:13px;font-family:'DM Sans',sans-serif;font-weight:500;color:var(--muted) }
+  .add-btn { width:34px;height:34px;background:var(--ink);color:white;border:none;border-radius:50%;font-size:20px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.2s;font-weight:300 }
+  .add-btn:hover { background:var(--gold);transform:scale(1.1) }
+  .wishlist-btn { position:absolute;top:10px;left:10px;width:30px;height:30px;background:rgba(255,255,255,0.9);border:none;border-radius:50%;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.15) }
+  .product-card:hover .wishlist-btn { opacity:1 }
+
+  /* ABOUT */
+  .about-oil { background:var(--ink);padding:72px 0;position:relative;overflow:hidden }
+  .about-oil::before { content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 80% 50%,rgba(184,121,10,0.12),transparent 65%) }
+  .about-inner { max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;position:relative;z-index:2 }
+  .about-title { font-family:'Playfair Display',serif;font-size:clamp(32px,3.5vw,48px);font-weight:900;color:white;line-height:1.15;margin-bottom:20px }
+  .about-title em { font-style:italic;color:var(--gold-light) }
+  .about-body { font-size:15px;color:rgba(255,255,255,0.65);line-height:1.85;margin-bottom:28px }
+  .features-list { list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:32px }
+  .features-list li { display:flex;align-items:flex-start;gap:12px;font-size:14.5px;color:rgba(255,255,255,0.8);line-height:1.5 }
+  .feat-check { width:20px;height:20px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;color:white;flex-shrink:0;margin-top:2px }
+  .about-right { display:grid;grid-template-columns:1fr 1fr;gap:16px }
+  .info-card { background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:22px 18px;transition:all 0.3s }
+  .info-card:hover { background:rgba(255,255,255,0.08);border-color:rgba(184,121,10,0.4) }
+  .info-icon { font-size:28px;margin-bottom:12px }
+  .info-title { font-size:15px;font-weight:700;color:white;margin-bottom:6px }
+  .info-text { font-size:13px;color:rgba(255,255,255,0.5);line-height:1.6 }
+
+  /* TECHNIQUES */
+  .techniques { padding:72px 0;background:var(--warm) }
+  .tech-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:24px }
+  .tech-card { background:white;border-radius:10px;overflow:hidden;border:1px solid var(--border);transition:all 0.3s;cursor:pointer }
+  .tech-card:hover { transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,0.09) }
+  .tech-thumb { height:160px;display:flex;align-items:center;justify-content:center;font-size:54px;position:relative }
+  .t1{background:linear-gradient(135deg,#1C1407,#3D2A0A)}
+  .t2{background:linear-gradient(135deg,#0A1C0D,#1E4D2A)}
+  .t3{background:linear-gradient(135deg,#1C0A0A,#4D1E1E)}
+  .tech-tag { position:absolute;bottom:12px;left:12px;background:rgba(255,255,255,0.15);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.2);color:white;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;padding:4px 10px;border-radius:100px }
+  .tech-body { padding:18px }
+  .tech-title { font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink);margin-bottom:7px;line-height:1.3 }
+  .tech-desc { font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:12px }
+  .tech-read { font-size:13px;font-weight:600;color:var(--gold);display:flex;align-items:center;gap:5px;transition:gap 0.2s }
+  .tech-card:hover .tech-read { gap:9px }
+
+  /* FAQ */
+  .faq-section { padding:72px 0;background:white }
+  .faq-grid { display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:900px;margin:0 auto }
+  .faq-item { border:1px solid var(--border);border-radius:8px;overflow:hidden;cursor:pointer }
+  .faq-q { padding:18px 20px;font-size:14.5px;font-weight:600;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:12px;transition:background 0.2s }
+  .faq-item:hover .faq-q { background:var(--gold-pale) }
+  .faq-arrow { color:var(--gold);font-size:18px;flex-shrink:0;transition:transform 0.3s }
+  .faq-item.open .faq-arrow { transform:rotate(180deg) }
+  .faq-a { padding:0 20px;font-size:13.5px;color:var(--muted);line-height:1.7;max-height:0;overflow:hidden;transition:max-height 0.35s ease,padding 0.2s }
+  .faq-item.open .faq-a { max-height:200px;padding:0 20px 18px }
+
+  /* NEWSLETTER */
+  .newsletter { padding:72px 0;background:var(--gold);color:white;text-align:center;position:relative;overflow:hidden }
+  .newsletter::after { content:'OIL · COLOUR · 40ML · ARTIST · PAINT · OIL · COLOUR · 40ML · ARTIST · PAINT · OIL · COLOUR · 40ML · ';position:absolute;top:18px;white-space:nowrap;font-size:11px;font-weight:700;letter-spacing:0.25em;opacity:0.2;animation:ticker 22s linear infinite }
+  @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .nl-inner { max-width:520px;margin:0 auto;padding:0 32px;position:relative;z-index:2 }
+  .nl-title { font-family:'Playfair Display',serif;font-size:36px;font-weight:900;margin-bottom:10px;line-height:1.2 }
+  .nl-sub { font-size:15px;opacity:0.85;margin-bottom:28px;line-height:1.6 }
+  .nl-form { display:flex;border-radius:4px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.25) }
+  .nl-input { flex:1;padding:15px 18px;border:none;font-size:14px;outline:none;font-family:'DM Sans',sans-serif }
+  .nl-btn { padding:15px 22px;background:var(--ink);color:white;border:none;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;font-family:'DM Sans',sans-serif;transition:background 0.2s }
+  .nl-btn:hover { background:#2d1e06 }
+
+  /* FOOTER */
+  footer { background:var(--ink);color:rgba(255,255,255,0.6);padding:56px 0 28px }
+  .footer-inner { max-width:1200px;margin:0 auto;padding:0 32px }
+  .footer-top { display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:48px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.08);margin-bottom:28px }
+  .f-brand-text { font-size:13.5px;color:rgba(255,255,255,0.45);margin:14px 0 20px;line-height:1.7 }
+  .social-row { display:flex;gap:8px }
+  .soc { width:34px;height:34px;border:1px solid rgba(255,255,255,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;transition:all 0.2s }
+  .soc:hover { background:var(--gold);border-color:var(--gold) }
+  .f-col h5 { font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:white;margin-bottom:16px }
+  .f-col a { display:block;font-size:13px;color:rgba(255,255,255,0.45);margin-bottom:8px;transition:color 0.2s }
+  .f-col a:hover { color:var(--gold-light) }
+  .footer-bottom { display:flex;justify-content:space-between;align-items:center;font-size:12px;color:rgba(255,255,255,0.3);flex-wrap:wrap;gap:12px }
+  .footer-bottom a { color:rgba(255,255,255,0.3);margin-left:16px;transition:color 0.2s }
+  .footer-bottom a:hover { color:var(--gold-light) }
+
+  /* TOAST */
+  .toast { position:fixed;bottom:28px;right:28px;background:var(--ink);color:white;padding:14px 20px;border-radius:8px;font-size:14px;font-weight:500;display:flex;align-items:center;gap:10px;box-shadow:0 8px 32px rgba(0,0,0,0.3);z-index:9999;transform:translateY(80px);opacity:0;transition:all 0.4s cubic-bezier(0.34,1.56,0.64,1);border-left:4px solid var(--gold) }
+  .toast.show { transform:translateY(0);opacity:1 }
+
+  @media(max-width:900px){
+    .hero-inner{grid-template-columns:1fr}
+    .hero-banner-img{height:340px}
+    .about-inner{grid-template-columns:1fr;gap:40px}
+    .tech-grid{grid-template-columns:1fr 1fr}
+    .footer-top{grid-template-columns:1fr 1fr}
+    .footer-top>div:first-child{grid-column:1/-1}
+    .faq-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:600px){
+    .header-inner{padding:0 16px}
+    .hero-inner{padding:40px 16px}
+    .tech-grid{grid-template-columns:1fr}
+    nav{display:none}
+    .hero-banner-img{height:260px}
+  }
+
+  /* CATEGORY SECTIONS */
+  .cat-section { padding: 64px 0 }
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 32px;
+  }
+  .cat-card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 16px rgba(184,121,10,0.06);
+    transition: transform 0.22s, box-shadow 0.22s;
+    cursor: pointer;
+  }
+  .cat-card:hover { transform: translateY(-4px); box-shadow: 0 12px 36px rgba(184,121,10,0.14) }
+  .cat-card--dark {
+    background: #232323;
+    border-color: rgba(255,255,255,0.08);
+  }
+  .cat-card--dark .cat-card-name { color: white }
+  .cat-card--dark .cat-card-desc { color: rgba(255,255,255,0.5) }
+  .cat-card--dark .cat-card-price { color: #c8a84b }
+  .cat-card--dark .cat-card-btn { background: #333; color: rgba(255,255,255,0.85); border-color: rgba(255,255,255,0.12) }
+  .cat-thumb {
+    width: 100%; height: 180px;
+    background: #f8f4ee;
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .cat-thumb img { width: 100%; height: 100%; object-fit: contain; padding: 12px }
+  .cat-thumb--dark { background: #1a1a1a }
+  .cat-card-body { padding: 14px 16px 16px }
+  .cat-card-tag {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 4px;
+  }
+  .cat-card-name { font-family:'Playfair Display',serif; font-size:16px; font-weight:700; color:var(--ink); margin-bottom:4px; line-height:1.3 }
+  .cat-card-desc { font-size:12px; color:var(--muted); line-height:1.5; margin-bottom:10px }
+  .cat-card-footer { display:flex; align-items:center; justify-content:space-between }
+  .cat-card-price { font-family:'Bebas Neue',sans-serif; font-size:22px; color:var(--gold) }
+  .cat-card-btn {
+    font-size:12px; font-weight:700; padding:6px 14px; border-radius:6px;
+    background:var(--gold-pale); color:var(--gold); border:1px solid var(--border);
+    cursor:pointer; transition:background 0.2s;
+  }
+  .cat-card-btn:hover { background:var(--gold); color:white }
+  .cat-badge-new { position:absolute;top:10px;right:10px;background:#22c55e;color:white;font-size:10px;font-weight:800;padding:3px 9px;border-radius:20px;letter-spacing:0.06em }
+  .cat-badge-pop { position:absolute;top:10px;right:10px;background:var(--gold);color:white;font-size:10px;font-weight:800;padding:3px 9px;border-radius:20px;letter-spacing:0.06em }
+  @media(max-width:600px){ .cat-grid { grid-template-columns: repeat(2,1fr) } }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="topbar-tag">Offer</span>
+  <span>Buy any <strong>6 tubes</strong> of Oil Colour 40ml and get <strong>10% off</strong> your order!</span>
+</div>
+
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-badge"><span>AD2</span>KART</div>
+      <div class="logo-name">ad2kart.in <small>Artist Oil Colours</small></div>
+    </a>
+    <nav>
+      <a href="#" class="nav-link active">Home</a>
+      <a href="#products" class="nav-link">All Colours</a>
+      <a href="#products" class="nav-link">Oil Colours</a>
+      <a href="#acrylics" class="nav-link">Acrylics</a>
+      <a href="#hdacrylics" class="nav-link">HD Acrylics</a>
+      <a href="#charcoals" class="nav-link">Charcoals</a>
+      <a href="#shipping" class="nav-link">Shipping & Returns</a>
+      <a href="#about" class="nav-link">About Us</a>
+      <a href="#tips" class="nav-link">Tips & Techniques</a>
+      <a href="#faq" class="nav-link">FAQs</a>
+    </nav>
+    <div class="header-right">
+      <button class="search-btn">🔍</button>
+      <button class="cart-btn" onclick="openCart()">🛒 Cart <span class="cart-count" id="cartCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="oil-blobs">
+    <div class="blob b1"></div><div class="blob b2"></div>
+    <div class="blob b3"></div><div class="blob b4"></div><div class="blob b5"></div>
+  </div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">
+        <div class="eyebrow-dot"></div>
+        <span class="eyebrow-text">Shriram Books Emporium, Shegaon · Since 2002</span>
+      </div>
+      <h1 class="hero-title">Artist Oil<br>Colours<br><em>40ml Tubes</em></h1>
+      <p class="hero-desc">Trusted art supplier from Shegaon, Maharashtra since 2002. We bring you premium Artist Oil Colours — rich pigments, smooth consistency, exceptional lightfastness.</p>
+      <div class="hero-meta">
+        <div><div class="stat-val">37+</div><div class="stat-lbl">Vibrant Shades</div></div>
+        <div><div class="stat-val">23YR</div><div class="stat-lbl">In Business</div></div>
+        <div><div class="stat-val">10YR</div><div class="stat-lbl">Amazon Seller</div></div>
+      </div>
+      <div class="hero-btns">
+        <a href="#products" class="btn-primary">Shop All Colours →</a>
+        <a href="#about" class="btn-outline-white">What is Oil Paint?</a>
+      </div>
+    </div>
+    <!-- ECOM BANNER CARD -->
+    <div class="ecom-banner-card">
+      <!-- Top ribbon -->
+      <div class="ebc-ribbon">
+        <span>🏪 Shriram Books Emporium — Official Online Store</span>
+        <span class="ebc-ribbon-dot"></span>
+        <span>📦 Ships from Shegaon, Maharashtra</span>
+      </div>
+      <!-- Main banner body -->
+      <div class="ebc-body">
+        <!-- Left: tube images stack -->
+        <div class="ebc-tubes">
+          <img class="ebc-tube t-back"  src="https://www.kokuyocamlin.com/camel/gallery/individual/paints/artist-oil-colours/individual-tubes/individual-tube-of-prussian-blue-in-40-ml/1.jpg"  alt="Prussian Blue" onerror="this.style.opacity=0">
+          <img class="ebc-tube t-mid"   src="https://www.kokuyocamlin.com/camel/gallery/individual/paints/artist-oil-colours/individual-tubes/individual-tube-of-crimson-lake-in-40-ml/1.jpg"    alt="Crimson Lake" onerror="this.style.opacity=0">
+          <img class="ebc-tube t-front" src="https://www.kokuyocamlin.com/camel/gallery/individual/paints/artist-oil-colours/individual-tubes/individual-tube-of-ultramarine-blue-in-40-ml/1.jpg" alt="Ultramarine" onerror="this.style.opacity=0">
+        </div>
+        <!-- Right: info -->
+        <div class="ebc-info">
+          <div class="ebc-tag">Artist Grade · 40ml Tubes</div>
+          <div class="ebc-title">Oil Colour<br><span>Collection</span></div>
+          <div class="ebc-price-row">
+            <div class="ebc-price">₹220 <span>onwards</span></div>
+            <div class="ebc-instock"><span class="ebc-dot"></span> In Stock</div>
+          </div>
+          <div class="ebc-badges">
+            <div class="ebc-badge">🎨 37 Shades</div>
+            <div class="ebc-badge">⭐ Artist Grade</div>
+            <div class="ebc-badge">🚚 Free Ship ₹499+</div>
+          </div>
+          <a href="#products" class="ebc-cta">Shop All Shades →</a>
+        </div>
+      </div>
+      <!-- Trust row -->
+      <div class="ebc-trust">
+        <div class="ebc-trust-item"><div class="ebc-trust-icon">🏬</div><div><strong>Since 2002</strong><div>Shriram Books<br>Emporium</div></div></div>
+        <div class="ebc-divider"></div>
+        <div class="ebc-trust-item"><div class="ebc-trust-icon">📦</div><div><strong>1,75,000+</strong><div>Orders<br>Delivered</div></div></div>
+        <div class="ebc-divider"></div>
+        <div class="ebc-trust-item"><div class="ebc-trust-icon">⭐</div><div><strong>4.9 · 5900+</strong><div>Amazon Rating<br>& Feedbacks</div></div></div>
+        <div class="ebc-divider"></div>
+        <div class="ebc-trust-item"><div class="ebc-trust-icon">✅</div><div><strong>Genuine</strong><div>100% Original<br>Products</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item"><span class="trust-icon">🚚</span> Free shipping above ₹499</div>
+    <div class="trust-item"><span class="trust-icon">🎨</span> 24+ vibrant shades</div>
+    <div class="trust-item"><span class="trust-icon">✅</span> 100% genuine artist-grade</div>
+    <div class="trust-item"><span class="trust-icon">↩️</span> Easy 7-day returns</div>
+    <div class="trust-item"><span class="trust-icon">🔒</span> Secure payments</div>
+  </div>
+</div>
+
+<section class="products-section" id="products">
+  <div class="section-wrap">
+    <div class="section-top">
+      <div>
+        <span class="section-label">Complete Collection</span>
+        <h2 class="section-title">Oil Colour <em>40ml</em> — All Shades</h2>
+      </div>
+      <div style="font-size:14px;color:var(--muted)">Showing <strong id="shownCount">24</strong> colours</div>
+    </div>
+    <div class="filter-bar">
+      <div class="filter-chip active" onclick="filterProducts('all',this)">All Shades</div>
+      <div class="filter-chip" onclick="filterProducts('warm',this)"><span class="chip-dot" style="background:#CC4400"></span>Warm Tones</div>
+      <div class="filter-chip" onclick="filterProducts('cool',this)"><span class="chip-dot" style="background:#1A3A7A"></span>Cool Tones</div>
+      <div class="filter-chip" onclick="filterProducts('neutral',this)"><span class="chip-dot" style="background:#6B5A3E"></span>Neutrals & Earth</div>
+      <div class="filter-chip" onclick="filterProducts('special',this)"><span class="chip-dot" style="background:#B8790A"></span>Specialty</div>
+    </div>
+    <div class="products-grid" id="productsGrid"></div>
+  </div>
+</section>
+
+<section class="about-oil" id="about">
+  <div class="about-inner">
+    <div>
+      <span class="section-label" style="color:var(--gold-light)">About Us</span>
+      <h2 class="about-title">Shriram Books<br><em>Emporium</em></h2>
+      <p class="about-body">We are <strong style="color:var(--gold-light)">Shriram Books Emporium</strong>, a trusted stationery and art supplies store based in <strong style="color:var(--gold-light)">Shegaon, Maharashtra</strong>. Serving artists, students, and professionals since <strong style="color:var(--gold-light)">2002</strong>, we have built a reputation for genuine products, fair pricing, and reliable service.</p>
+      <p class="about-body">For over <strong style="color:var(--gold-light)">10 years</strong> we've been a trusted <strong style="color:var(--gold-light)">Amazon India seller</strong> — with <strong style="color:var(--gold-light)">1,75,000+ orders successfully delivered</strong>, over <strong style="color:var(--gold-light)">5,900 positive feedbacks</strong>, and a stellar rating of <strong style="color:var(--gold-light)">4.9 ⭐</strong>. Every product is 100% genuine, sourced directly from authorised distributors.</p>
+
+      <!-- Amazon Stats Bar -->
+      <div class="amz-stats">
+        <div class="amz-stat">
+          <div class="amz-val">1,75,000+</div>
+          <div class="amz-lbl">Orders Delivered</div>
+        </div>
+        <div class="amz-sdivider"></div>
+        <div class="amz-stat">
+          <div class="amz-val">5,900+</div>
+          <div class="amz-lbl">Positive Feedbacks</div>
+        </div>
+        <div class="amz-sdivider"></div>
+        <div class="amz-stat">
+          <div class="amz-val">4.9 ⭐</div>
+          <div class="amz-lbl">Amazon Rating</div>
+        </div>
+        <div class="amz-sdivider"></div>
+        <div class="amz-stat">
+          <div class="amz-val">10+ Yrs</div>
+          <div class="amz-lbl">Amazon Seller</div>
+        </div>
+      </div>
+
+      <ul class="features-list">
+        <li><span class="feat-check">✓</span> Established in 2002 — over 20 years serving artists in Vidarbha</li>
+        <li><span class="feat-check">✓</span> 1,75,000+ orders successfully delivered on Amazon India</li>
+        <li><span class="feat-check">✓</span> 5,900+ positive feedbacks · 4.9 star rating on Amazon</li>
+        <li><span class="feat-check">✓</span> 100% genuine, authorised products — no grey market stock</li>
+        <li><span class="feat-check">✓</span> Fast shipping from Shegaon, Maharashtra across India</li>
+        <li><span class="feat-check">✓</span> Dedicated support for schools, colleges, and bulk orders</li>
+      </ul>
+      <a href="#products" class="btn-primary">Browse All 37 Shades →</a>
+    </div>
+    <div class="about-right">
+      <div class="info-card"><div class="info-icon">🏬</div><div class="info-title">Est. 2002</div><div class="info-text">Over 20 years of trusted service in Shegaon, Maharashtra — a name artists rely on.</div></div>
+      <div class="info-card"><div class="info-icon">📦</div><div class="info-title">1,75,000+ Orders</div><div class="info-text">Successfully delivered across India through Amazon — one of the most active art supply sellers.</div></div>
+      <div class="info-card"><div class="info-icon">⭐</div><div class="info-title">4.9 Rating</div><div class="info-text">Outstanding 4.9-star Amazon rating backed by 5,900+ genuine positive customer feedbacks.</div></div>
+      <div class="info-card"><div class="info-icon">✅</div><div class="info-title">100% Genuine</div><div class="info-text">All products sourced from authorised distributors. No duplicates, no grey market.</div></div>
+      <div class="info-card"><div class="info-icon">🎨</div><div class="info-title">37 Shades</div><div class="info-text">Complete range of artist-grade oil colours — warm, cool, earth tones, and specialty.</div></div>
+      <div class="info-card"><div class="info-icon">🚚</div><div class="info-title">Pan-India Ship</div><div class="info-text">Free shipping on orders above ₹499. Fast, safe delivery anywhere in India.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACRYLIC COLOURS ASSORTED PACKS ===================== -->
+<section class="cat-section" id="acrylics" style="background:#fff">
+  <div class="section-wrap">
+    <div class="section-top">
+      <div>
+        <span class="section-label">Hobby & Student</span>
+        <h2 class="section-title">Acrylic Colours — <em>Assorted Packs</em></h2>
+        <p style="color:var(--muted);font-size:14px;margin-top:6px">Ready-to-use colour sets — classic, metallic, pastel, pearl & more</p>
+      </div>
+    </div>
+    <div class="cat-grid" id="acrylicGrid"></div>
+  </div>
+</section>
+
+<!-- ===================== ARTIST HD ACRYLICS ===================== -->
+<section class="cat-section" id="hdacrylics" style="background:var(--warm)">
+  <div class="section-wrap">
+    <div class="section-top">
+      <div>
+        <span class="section-label">Professional Range</span>
+        <h2 class="section-title">Artist HD <em>Acrylics</em></h2>
+        <p style="color:var(--muted);font-size:14px;margin-top:6px">High-definition pigment intensity — vibrant, fade-resistant, artist-grade</p>
+      </div>
+    </div>
+    <div class="cat-grid" id="hdAcrylicGrid"></div>
+  </div>
+</section>
+
+<!-- ===================== CHARCOALS ===================== -->
+<section class="cat-section" id="charcoals" style="background:#1a1a1a">
+  <div class="section-wrap">
+    <div class="section-top">
+      <div>
+        <span class="section-label" style="color:rgba(255,255,255,0.5)">Drawing Materials</span>
+        <h2 class="section-title" style="color:white">Artist <em style="color:#c8a84b">Charcoals</em></h2>
+        <p style="color:rgba(255,255,255,0.45);font-size:14px;margin-top:6px">Charcoal pencils, sticks & sets for sketching, shading & fine art</p>
+      </div>
+    </div>
+    <div class="cat-grid" id="charcoalGrid"></div>
+  </div>
+</section>
+
+<section class="techniques" id="tips">
+  <div class="section-wrap">
+    <div class="section-top">
+      <div>
+        <span class="section-label">Learn Oil Painting</span>
+        <h2 class="section-title">Tips & <em>Techniques</em></h2>
+      </div>
+    </div>
+    <div class="tech-grid">
+      <a href="#" class="tech-card">
+        <div class="tech-thumb t1"><span>🖌️</span><span class="tech-tag">#ProTips</span></div>
+        <div class="tech-body">
+          <div class="tech-title">Getting Started with Oil Paints — A Beginner's Guide</div>
+          <div class="tech-desc">Essential tools, mediums, and first steps. Set up your palette the right way from day one.</div>
+          <div class="tech-read">Read Article →</div>
+        </div>
+      </a>
+      <a href="#" class="tech-card">
+        <div class="tech-thumb t2"><span>🎨</span><span class="tech-tag">#Tutorial</span></div>
+        <div class="tech-body">
+          <div class="tech-title">Glazing & Layering for Luminous Depth</div>
+          <div class="tech-desc">Build up transparent colour layers to create rich, glowing paintings with incredible depth.</div>
+          <div class="tech-read">Read Article →</div>
+        </div>
+      </a>
+      <a href="#" class="tech-card">
+        <div class="tech-thumb t3"><span>🖼️</span><span class="tech-tag">#ProductGuide</span></div>
+        <div class="tech-body">
+          <div class="tech-title">Which Mediums Work Best with Artist Oil Colours?</div>
+          <div class="tech-desc">Linseed oil, turpentine, alkyd medium — find out which additives transform your practice.</div>
+          <div class="tech-read">Read Article →</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SHIPPING POLICY SECTION -->
+<section class="shipping-section" id="shipping">
+  <div class="section-wrap">
+    <div style="text-align:center;margin-bottom:48px">
+      <span class="section-label">Delivery & Returns</span>
+      <h2 class="section-title">Shipping <em>Policy</em></h2>
+      <p style="color:var(--muted);font-size:15px;margin-top:10px">Everything you need to know before you order</p>
+    </div>
+
+    <!-- Policy Cards Row -->
+    <div class="ship-cards">
+      <div class="ship-card ship-card--green">
+        <div class="ship-card-icon">🚚</div>
+        <div class="ship-card-title">Free Shipping</div>
+        <div class="ship-card-val">On orders ₹499+</div>
+        <div class="ship-card-sub">Flat shipping charge applies on orders below ₹499</div>
+      </div>
+      <div class="ship-card ship-card--blue">
+        <div class="ship-card-icon">📦</div>
+        <div class="ship-card-title">Courier Partner</div>
+        <div class="ship-card-val">DTDC Only</div>
+        <div class="ship-card-sub">All orders shipped exclusively via DTDC courier pan-India</div>
+      </div>
+      <div class="ship-card ship-card--orange">
+        <div class="ship-card-icon">💳</div>
+        <div class="ship-card-title">Prepaid Orders</div>
+        <div class="ship-card-val">No COD Available</div>
+        <div class="ship-card-sub">We accept UPI, Net Banking, Credit/Debit Cards & Wallets</div>
+      </div>
+      <div class="ship-card ship-card--gold">
+        <div class="ship-card-icon">↩️</div>
+        <div class="ship-card-title">Easy Returns</div>
+        <div class="ship-card-val">15-Day Window</div>
+        <div class="ship-card-sub">Return within 15 days of delivery for exchange or refund</div>
+      </div>
+    </div>
+
+    <!-- Shipping Info Table -->
+    <div class="ship-table-wrap">
+      <div class="ship-table-title">📋 Shipping Details at a Glance</div>
+      <div class="ship-table">
+        <div class="ship-row ship-row--head">
+          <div>Detail</div><div>Policy</div>
+        </div>
+        <div class="ship-row">
+          <div>Courier Partner</div>
+          <div><strong>DTDC Courier & Cargo</strong></div>
+        </div>
+        <div class="ship-row">
+          <div>Free Shipping</div>
+          <div><strong class="tag-green">FREE on orders ₹499 &amp; above</strong></div>
+        </div>
+        <div class="ship-row">
+          <div>Payment Mode</div>
+          <div><strong>Prepaid only</strong> · UPI / Cards / Net Banking / Wallets</div>
+        </div>
+        <div class="ship-row">
+          <div>Cash on Delivery</div>
+          <div><strong class="tag-red">❌ Not Available</strong></div>
+        </div>
+        <div class="ship-row">
+          <div>Estimated Delivery</div>
+          <div><strong>4–7 business days</strong> depending on location</div>
+        </div>
+        <div class="ship-row">
+          <div>Return Window</div>
+          <div><strong>15 days</strong> from date of delivery</div>
+        </div>
+        <div class="ship-row">
+          <div>Return Condition</div>
+          <div>Product must be unused, in original sealed packaging</div>
+        </div>
+        <div class="ship-row">
+          <div>Customer Care</div>
+          <div><a href="tel:9822641098" class="ship-phone">📞 98226 41098</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Customer Care Banner -->
+    <div class="care-banner">
+      <div class="care-left">
+        <div class="care-icon">📞</div>
+        <div>
+          <div class="care-label">Customer Care — Mon to Sat, 10am–7pm</div>
+          <a href="tel:9822641098" class="care-number">98226 41098</a>
+          <div class="care-sub">Shriram Books Emporium, Shegaon, Maharashtra</div>
+        </div>
+      </div>
+      <a href="tel:9822641098" class="care-cta">Call Now →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq-section" id="faq">
+  <div class="section-wrap">
+    <div style="text-align:center;margin-bottom:40px">
+      <span class="section-label">Frequently Asked</span>
+      <h2 class="section-title">Shipping & Order <em>FAQs</em></h2>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">Which courier do you use for delivery? <span class="faq-arrow">⌄</span></div><div class="faq-a">We ship all orders exclusively via <strong>DTDC Courier & Cargo</strong> across India. Once your order is dispatched, you will receive a DTDC tracking number to monitor your shipment.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">Is Cash on Delivery (COD) available? <span class="faq-arrow">⌄</span></div><div class="faq-a"><strong>No, we do not offer Cash on Delivery.</strong> All orders are prepaid only. We accept UPI, Credit/Debit Cards, Net Banking, and popular Wallets. This helps us process and ship your order faster.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">When do I get free shipping? <span class="faq-arrow">⌄</span></div><div class="faq-a">Shipping is <strong>FREE on all prepaid orders of ₹499 and above</strong>. For orders below ₹499, a flat shipping charge will be applied at checkout.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">How long does delivery take? <span class="faq-arrow">⌄</span></div><div class="faq-a">Orders are typically delivered within <strong>4–7 business days</strong> depending on your location. Remote areas may take a couple of extra days. You'll get a tracking link once your order ships.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">What is your return policy? <span class="faq-arrow">⌄</span></div><div class="faq-a">We offer a <strong>15-day return window</strong> from the date of delivery. Products must be returned unused and in their original sealed packaging. Please contact us on <strong>98226 41098</strong> to initiate a return.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">How do I contact customer care? <span class="faq-arrow">⌄</span></div><div class="faq-a">You can reach us at <strong><a href="tel:9822641098" style="color:var(--gold)">📞 98226 41098</a></strong> — Monday to Saturday, 10am to 7pm. We're happy to help with orders, returns, product queries, and bulk orders.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="nl-inner">
+    <h2 class="nl-title">New shades. New arrivals.</h2>
+    <p class="nl-sub">Subscribe and be the first to hear about restocks, new oil colour launches, and exclusive discounts for artists.</p>
+    <div class="nl-form">
+      <input class="nl-input" type="email" placeholder="Your email address">
+      <button class="nl-btn">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="logo-badge" style="display:inline-block;margin-bottom:10px"><span>AD2</span>KART</div>
+        <p class="f-brand-text"><strong>Shriram Books Emporium</strong>, Shegaon, Maharashtra.<br>Trusted art & stationery supplier since 2002 · Amazon India seller for 10+ years · Pan-India delivery.</p>
+        <div class="social-row"><div class="soc">𝕏</div><div class="soc">f</div><div class="soc">📸</div><div class="soc">▶</div></div>
+      </div>
+      <div class="f-col"><h5>Products</h5><a href="#products">Oil Colours 40ml</a><a href="#acrylics">Acrylic Colour Sets</a><a href="#hdacrylics">Artist HD Acrylics</a><a href="#charcoals">Charcoals</a><a href="#products">All 37 Oil Shades</a></div>
+      <div class="f-col"><h5>Learn</h5><a href="#">Oil Painting Tips</a><a href="#">Beginner's Guide</a><a href="#">Glazing Techniques</a><a href="#">Choosing Mediums</a><a href="#">FAQs</a></div>
+      <div class="f-col"><h5>Support</h5><a href="tel:9822641098">📞 98226 41098</a><a href="#shipping">Shipping Info</a><a href="#shipping">Returns Policy</a><a href="#faq">FAQs</a><a href="#shipping">Track Order</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2002–2026 Shriram Books Emporium, Shegaon · ad2kart.in. All rights reserved.</span>
+      <div><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Sitemap</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">🎨 Added to cart!</div>
+
+<script>
+const BASE_IMG = "https://www.kokuyocamlin.com/camel/gallery/individual/paints/artist-oil-colours/individual-tubes";
+const oilColours = [
+  // WARM TONES
+  {name:"Cadmium Red",           shade:"#CC2200",code:"WA01",price:320,category:"warm",   badge:"pop", slug:"cadmium-red"},
+  {name:"Vermilion Hue",         shade:"#DD4422",code:"WA02",price:260,category:"warm",   badge:"",    slug:"vermillion-hue"},
+  {name:"Crimson Lake",          shade:"#9B1230",code:"WA03",price:260,category:"warm",   badge:"",    slug:"crimson-lake"},
+  {name:"Crimson Deep",          shade:"#7A0820",code:"WA04",price:320,category:"warm",   badge:"new", slug:"crimson-deep"},
+  {name:"Cadmium Orange",        shade:"#E06000",code:"WA05",price:320,category:"warm",   badge:"",    slug:"cadmium-orange"},
+  {name:"Chrome Orange Hue",     shade:"#CC5500",code:"WA06",price:280,category:"warm",   badge:"",    slug:"chrome-orange-hue"},
+  {name:"Indian Red",            shade:"#8B2500",code:"WA07",price:240,category:"warm",   badge:"",    slug:"indian-red"},
+  {name:"Venetian Red",          shade:"#7A3020",code:"WA08",price:240,category:"warm",   badge:"",    slug:"venetian-red"},
+  {name:"Cadmium Red Deep",      shade:"#990010",code:"WA09",price:320,category:"warm",   badge:"",    slug:"cadmium-red-deep"},
+  // COOL TONES
+  {name:"Ultramarine Blue",      shade:"#1A2F9E",code:"CO01",price:220,category:"cool",   badge:"pop", slug:"ultramarine-blue"},
+  {name:"French Ultramarine",    shade:"#2B3DA8",code:"CO02",price:260,category:"cool",   badge:"",    slug:"french-ultramarine"},
+  {name:"Prussian Blue",         shade:"#003153",code:"CO03",price:260,category:"cool",   badge:"",    slug:"prussian-blue"},
+  {name:"Cobalt Blue Hue",       shade:"#0047AB",code:"CO04",price:260,category:"cool",   badge:"new", slug:"cobalt-blue-hue"},
+  {name:"Cerulean Blue Hue",     shade:"#2A88C8",code:"CO05",price:260,category:"cool",   badge:"",    slug:"cerulean-blue-hue"},
+  {name:"Indigo",                shade:"#2E1A6E",code:"CO06",price:240,category:"cool",   badge:"",    slug:"indigo"},
+  {name:"Emerald Green",         shade:"#1E7B48",code:"CO07",price:260,category:"cool",   badge:"",    slug:"emerald-green"},
+  {name:"Sap Green",             shade:"#3A7A1A",code:"CO08",price:280,category:"cool",   badge:"",    slug:"sap-green"},
+  {name:"Viridian Hue",          shade:"#2A6B4D",code:"CO09",price:260,category:"cool",   badge:"",    slug:"viridian-hue"},
+  // NEUTRALS & EARTH
+  {name:"Burnt Sienna",          shade:"#8B3A1A",code:"NE01",price:240,category:"neutral",badge:"pop", slug:"burnt-sienna"},
+  {name:"Burnt Umber",           shade:"#5C3317",code:"NE02",price:240,category:"neutral",badge:"",    slug:"burnt-umber"},
+  {name:"Raw Umber",             shade:"#735335",code:"NE03",price:260,category:"neutral",badge:"",    slug:"raw-umber"},
+  {name:"Vandyke Brown",         shade:"#4A2C1A",code:"NE04",price:240,category:"neutral",badge:"",    slug:"vandyke-brown"},
+  {name:"Sepia",                 shade:"#5C3D1E",code:"NE05",price:260,category:"neutral",badge:"",    slug:"sepia"},
+  {name:"Yellow Ochre",          shade:"#C89020",code:"NE06",price:220,category:"neutral",badge:"",    slug:"yellow-ochre"},
+  {name:"Naples Yellow",         shade:"#F5D98B",code:"NE07",price:280,category:"neutral",badge:"",    slug:"naples-yellow"},
+  {name:"Ivory Black",           shade:"#1A1810",code:"NE08",price:240,category:"neutral",badge:"pop", slug:"ivory-black"},
+  {name:"Lamp Black",            shade:"#100F0D",code:"NE09",price:240,category:"neutral",badge:"",    slug:"lamp-black"},
+  {name:"Davy's Grey",           shade:"#4A4A4A",code:"NE10",price:240,category:"neutral",badge:"",    slug:"davy-grey"},
+  // SPECIALTY
+  {name:"Titanium White",        shade:"#F4F2EE",code:"SP01",price:240,category:"special",badge:"pop", slug:"titanium-white"},
+  {name:"Flake White Hue",       shade:"#EEEAE4",code:"SP02",price:240,category:"special",badge:"",    slug:"flake-white-hue"},
+  {name:"Magenta",               shade:"#CC0066",code:"SP03",price:280,category:"special",badge:"new", slug:"magenta"},
+  {name:"Mauve",                 shade:"#8B5A82",code:"SP04",price:280,category:"special",badge:"",    slug:"mauve"},
+  {name:"Lemon Yellow",          shade:"#EDE84A",code:"SP05",price:280,category:"special",badge:"",    slug:"lemon-yellow"},
+  {name:"Payne's Grey",          shade:"#3D4A5C",code:"SP06",price:240,category:"special",badge:"new", slug:"payne-grey"},
+  {name:"Gold Ochre Transparent",shade:"#C89A30",code:"SP07",price:280,category:"special",badge:"",    slug:"gold-ochre-transparent"},
+  {name:"Cadmium Yellow Deep",   shade:"#E8A800",code:"SP08",price:320,category:"special",badge:"",    slug:"cadmium-yellow-deep"},
+];
+
+let cartCount = 0;
+
+function renderProducts(filter='all'){
+  const shown = filter==='all' ? oilColours : oilColours.filter(c=>c.category===filter);
+  document.getElementById('shownCount').textContent = shown.length;
+  document.getElementById('productsGrid').innerHTML = shown.map((c,i)=>`
+    <div class="product-card" style="animation-delay:${i*0.04}s">
+      <button class="wishlist-btn">♡</button>
+      <div class="pc-thumb" style="background:#f8f4ee;position:relative">
+        <img 
+          src="${BASE_IMG}/individual-tube-of-${c.slug}-in-40-ml/1.jpg"
+          alt="${c.name} Oil Colour 40ml"
+          style="width:100%;height:100%;object-fit:contain;padding:10px;"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+        />
+        <div class="tube-fallback" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;flex-direction:column;gap:4px;">
+          <div class="tube-wrap">
+            <div class="tube-cap"></div>
+            <div class="tube-body" style="background:linear-gradient(160deg,${c.shade}EE,${c.shade}99)">
+              <div class="tube-label-strip">ad2kart</div>
+              <div class="tube-bottom"></div>
+            </div>
+            <div class="tube-ml">40 ml</div>
+          </div>
+        </div>
+        ${c.badge?`<span class="pc-badge badge-${c.badge}">${c.badge==='pop'?'Popular':'New'}</span>`:''}
+      </div>
+      <div class="pc-info">
+        <div class="pc-shade"><span class="shade-dot" style="background:${c.shade}"></span><span class="shade-name">${c.code}</span></div>
+        <div class="pc-name">${c.name}</div>
+        <div class="pc-size">Oil Colour · 40ml Tube</div>
+        <div class="pc-footer">
+          <div class="pc-price">₹${c.price} <small>/ tube</small></div>
+          <button class="add-btn" onclick="addToCart('${c.name}')">+</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function filterProducts(filter,el){
+  document.querySelectorAll('.filter-chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  renderProducts(filter);
+}
+
+function addToCart(name){
+  cartCount++;
+  document.getElementById('cartCount').textContent = cartCount;
+  const t = document.getElementById('toast');
+  t.textContent = `🎨 "${name}" added to cart!`;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2800);
+}
+
+function openCart(){
+  alert(`You have ${cartCount} item(s) in your cart.\n(Cart page coming soon!)`);
+}
+
+function toggleFaq(el){
+  const was = el.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(f=>f.classList.remove('open'));
+  if(!was) el.classList.add('open');
+}
+
+// Colour strip — all shades as clickable swatches
+const strip = document.getElementById('colourStrip');
+if(strip){
+  strip.innerHTML = oilColours.map(c=>`
+    <div class="cs-swatch" 
+      style="background:${c.shade};cursor:pointer" 
+      title="${c.name} — ₹${c.price}"
+      onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})"
+    ></div>
+  `).join('');
+}
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const id=a.getAttribute('href').slice(1);
+    const el=document.getElementById(id);
+    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+  });
+});
+
+renderProducts();
+
+// ─────────────────────────────────────────
+// ACRYLIC COLOURS — ASSORTED PACKS
+// ─────────────────────────────────────────
+const ACRYLIC_BASE = "https://www.kokuyocamlin.com/camel/gallery/packs/hobby/acrylic-colours/assorted-packs";
+const acrylicPacks = [
+  { name:"Classic Acrylic Set — 6 Shades", desc:"10ml bottles · Bright, water-based · Fast drying", price:120, badge:"pop",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-6-shades-in-10-ml/1.jpg`, tag:"Classic" },
+  { name:"Classic Acrylic Set — 9 Shades", desc:"10ml bottles · Rich pigment · Ideal for canvas & paper", price:170, badge:"",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-9-shades-in-10-ml/1.jpg`, tag:"Classic" },
+  { name:"Classic Acrylic Set — 12 Shades", desc:"10ml bottles · Full colour range for mixed media", price:220, badge:"pop",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-12-shades-in-10-ml/1.jpg`, tag:"Classic" },
+  { name:"Classic Acrylic Set — 18 Shades", desc:"10ml bottles · Professional colour spread", price:330, badge:"",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-18-shades-in-10-ml/1.jpg`, tag:"Classic" },
+  { name:"Classic Acrylic Set — 6 Shades (20ml)", desc:"20ml bottles · Extra volume for bigger projects", price:195, badge:"",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-6-shades-in-20-ml/1.jpg`, tag:"Classic 20ml" },
+  { name:"Metallic Acrylic Set — 6 Shades", desc:"10ml · Stunning metallic finish for mixed media art", price:165, badge:"new",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-6-shades-in-metallic-range/1.jpg`, tag:"Metallic" },
+  { name:"Pastel Acrylic Set — 6 Shades", desc:"10ml · Soft pastel tones, smooth matte finish", price:165, badge:"new",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-6-shades-in-10-ml/1.jpg`, tag:"Pastel" },
+  { name:"Pearl Acrylic Set — 6 Shades", desc:"10ml · Lustrous pearl effect, great for decorative art", price:165, badge:"",
+    img:`${ACRYLIC_BASE}/assorted-pack-of-6-shades-in-pearl-range/1.jpg`, tag:"Pearl" },
+];
+
+function renderAcrylics(){
+  document.getElementById('acrylicGrid').innerHTML = acrylicPacks.map((p,i)=>`
+    <div class="cat-card" style="animation-delay:${i*0.04}s">
+      <div class="cat-thumb">
+        <img src="${p.img}" alt="${p.name}"
+          onerror="this.parentNode.style.background='linear-gradient(135deg,#e8f4ff,#c8e0ff)';this.style.display='none'"/>
+        ${p.badge==='pop'?'<span class="cat-badge-pop">Popular</span>':p.badge==='new'?'<span class="cat-badge-new">New</span>':''}
+      </div>
+      <div class="cat-card-body">
+        <div class="cat-card-tag">${p.tag}</div>
+        <div class="cat-card-name">${p.name}</div>
+        <div class="cat-card-desc">${p.desc}</div>
+        <div class="cat-card-footer">
+          <div class="cat-card-price">₹${p.price}</div>
+          <button class="cat-card-btn" onclick="addToCart('${p.name}')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+renderAcrylics();
+
+// ─────────────────────────────────────────
+// ARTIST HD ACRYLICS
+// ─────────────────────────────────────────
+const HD_BASE = "https://www.kokuyocamlin.com/camel/gallery/packs/artist/artist-hd-acrylics/assorted-packs";
+const hdAcrylics = [
+  { name:"HD Acrylics — 6 Shades", desc:"High-definition pigment · Intense colour saturation · 40ml tubes", price:495, badge:"new",
+    img:`${HD_BASE}/assorted-pack-of-6-shades-in-40-ml/1.jpg`, tag:"Artist Grade" },
+  { name:"HD Acrylics — 9 Shades", desc:"Professional colour spread · Extra-fine ground pigments", price:720, badge:"",
+    img:`${HD_BASE}/assorted-pack-of-9-shades-in-40-ml/1.jpg`, tag:"Artist Grade" },
+  { name:"HD Acrylics — 12 Shades", desc:"Full studio range · Lightfast · Works on canvas, wood & paper", price:950, badge:"pop",
+    img:`${HD_BASE}/assorted-pack-of-12-shades-in-40-ml/1.jpg`, tag:"Artist Grade" },
+  { name:"HD Acrylics — 18 Shades", desc:"Complete collection · Museum-quality, fade resistant", price:1395, badge:"pop",
+    img:`${HD_BASE}/assorted-pack-of-18-shades-in-40-ml/1.jpg`, tag:"Artist Grade" },
+];
+
+function renderHDAcrylics(){
+  document.getElementById('hdAcrylicGrid').innerHTML = hdAcrylics.map((p,i)=>`
+    <div class="cat-card" style="animation-delay:${i*0.06}s">
+      <div class="cat-thumb" style="background:#f0f8ff">
+        <img src="${p.img}" alt="${p.name}"
+          onerror="this.parentNode.style.background='linear-gradient(135deg,#f0f0ff,#d0d0ff)';this.style.display='none'"/>
+        ${p.badge==='pop'?'<span class="cat-badge-pop">Popular</span>':p.badge==='new'?'<span class="cat-badge-new">New</span>':''}
+      </div>
+      <div class="cat-card-body">
+        <div class="cat-card-tag">${p.tag}</div>
+        <div class="cat-card-name">${p.name}</div>
+        <div class="cat-card-desc">${p.desc}</div>
+        <div class="cat-card-footer">
+          <div class="cat-card-price">₹${p.price}</div>
+          <button class="cat-card-btn" onclick="addToCart('${p.name}')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+renderHDAcrylics();
+
+// ─────────────────────────────────────────
+// CHARCOALS
+// ─────────────────────────────────────────
+const CHAR_BASE = "https://www.kokuyocamlin.com/camel/gallery/packs/artist/charcoals";
+const charcoals = [
+  { name:"Charcoal Pencils — Pack of 4", desc:"HB, 2B, 4B, 6B · Smooth, rich black · For sketching & shading", price:115, badge:"pop",
+    img:`${CHAR_BASE}/assorted-packs/pack-of-4-charcoal-pencils/1.jpg`, tag:"Pencils" },
+  { name:"Charcoal Pencils — Pack of 10", desc:"Full range HB to 8B · Professional grade drawing pencils", price:265, badge:"",
+    img:`${CHAR_BASE}/assorted-packs/pack-of-10-charcoal-pencils/1.jpg`, tag:"Pencils" },
+  { name:"Thin Charcoal Sticks — Pack of 10", desc:"3–4mm thin sticks · Ideal for detailed line work & hatching", price:120, badge:"",
+    img:`${CHAR_BASE}/assorted-packs/pack-of-10-thin-charcoal-sticks/1.jpg`, tag:"Sticks" },
+  { name:"Medium Charcoal Sticks — Pack of 10", desc:"5–6mm medium sticks · Smooth tone coverage for portraits", price:130, badge:"new",
+    img:`${CHAR_BASE}/assorted-packs/pack-of-10-medium-charcoal-sticks/1.jpg`, tag:"Sticks" },
+  { name:"Thick Charcoal Sticks — Pack of 10", desc:"7–8mm thick sticks · Bold, expressive strokes for large works", price:145, badge:"",
+    img:`${CHAR_BASE}/assorted-packs/pack-of-10-thick-charcoal-sticks/1.jpg`, tag:"Sticks" },
+  { name:"Compressed Charcoal — Pack of 5", desc:"Dense, consistent black · Great for deep shadows & blending", price:160, badge:"pop",
+    img:`${CHAR_BASE}/assorted-packs/pack-of-5-compressed-charcoal-sticks/1.jpg`, tag:"Compressed" },
+];
+
+function renderCharcoals(){
+  document.getElementById('charcoalGrid').innerHTML = charcoals.map((p,i)=>`
+    <div class="cat-card cat-card--dark" style="animation-delay:${i*0.05}s">
+      <div class="cat-thumb cat-thumb--dark">
+        <img src="${p.img}" alt="${p.name}"
+          onerror="this.parentNode.innerHTML='<div style=\\'font-size:48px;opacity:0.3\\'>✏️</div>';this.style.display='none'"/>
+        ${p.badge==='pop'?'<span class="cat-badge-pop">Popular</span>':p.badge==='new'?'<span class="cat-badge-new">New</span>':''}
+      </div>
+      <div class="cat-card-body">
+        <div class="cat-card-tag" style="color:rgba(255,255,255,0.35)">${p.tag}</div>
+        <div class="cat-card-name">${p.name}</div>
+        <div class="cat-card-desc">${p.desc}</div>
+        <div class="cat-card-footer">
+          <div class="cat-card-price">₹${p.price}</div>
+          <button class="cat-card-btn" onclick="addToCart('${p.name}')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+renderCharcoals();
+</script>
+</body>
+</html>
